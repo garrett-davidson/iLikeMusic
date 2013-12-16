@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CaptureWindowController.h"
 
 @implementation AppDelegate
 
@@ -17,6 +18,19 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    [[CaptureWindowController mainWindow] setUp];
+}
+
+- (void)applicationDidBecomeActive:(NSNotification *)notification
+{
+    NSWindow *window = [CaptureWindowController mainWindow].window;
+    [window makeKeyAndOrderFront:window];
+}
+
+- (BOOL)applicationShouldHandleReopen:(NSApplication *)theApplication hasVisibleWindows:(BOOL)flag
+{
+    if (!flag) [self applicationDidBecomeActive:nil];
+    return !flag;
 }
 
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "A-Programmer-s-Crucible.iLikeMusic" in the user's Application Support directory.
