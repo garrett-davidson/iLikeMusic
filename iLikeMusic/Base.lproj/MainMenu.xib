@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
         <plugIn identifier="com.apple.WebKitIBPlugin" version="3338"/>
@@ -693,15 +693,41 @@
                                             <action selector="loadSite:" target="uXE-jE-9Jq" id="zaZ-rk-7EI"/>
                                         </connections>
                                     </button>
+                                    <button verticalHuggingPriority="750" tag="4" translatesAutoresizingMaskIntoConstraints="NO" id="fb2-2j-C21">
+                                        <rect key="frame" x="225" y="13" width="69" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="Rdio" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="MLF-Xz-42z">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="loadSite:" target="uXE-jE-9Jq" id="i1v-pf-fnP"/>
+                                        </connections>
+                                    </button>
+                                    <button verticalHuggingPriority="750" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="B7R-CW-cyu">
+                                        <rect key="frame" x="294" y="13" width="86" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="Last.fm" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hwO-0s-Apk">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="loadSite:" target="uXE-jE-9Jq" id="2o5-9N-tKk"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="GKB-q4-YYK" firstAttribute="leading" secondItem="852-eH-Zy1" secondAttribute="leading" constant="20" id="4M1-dP-23J"/>
+                                    <constraint firstAttribute="bottom" secondItem="B7R-CW-cyu" secondAttribute="bottom" constant="20" id="8VV-6C-nBK"/>
                                     <constraint firstAttribute="bottom" secondItem="GDR-Ul-lZa" secondAttribute="bottom" constant="20" id="9MO-rg-lqn"/>
+                                    <constraint firstItem="fb2-2j-C21" firstAttribute="leading" secondItem="GDR-Ul-lZa" secondAttribute="trailing" constant="12" id="A21-pd-cmH"/>
                                     <constraint firstItem="GDR-Ul-lZa" firstAttribute="leading" secondItem="kOa-dS-5Tq" secondAttribute="trailing" constant="12" id="ARK-qv-Kfo"/>
                                     <constraint firstAttribute="trailing" secondItem="GKB-q4-YYK" secondAttribute="trailing" constant="20" id="DfA-KG-7AI"/>
                                     <constraint firstItem="GKB-q4-YYK" firstAttribute="top" secondItem="852-eH-Zy1" secondAttribute="top" constant="20" symbolic="YES" id="GYj-Ob-0sk"/>
+                                    <constraint firstItem="B7R-CW-cyu" firstAttribute="leading" secondItem="fb2-2j-C21" secondAttribute="trailing" constant="12" id="MLi-kH-YbG"/>
                                     <constraint firstAttribute="bottom" secondItem="kOa-dS-5Tq" secondAttribute="bottom" constant="20" id="TnR-UQ-MzJ"/>
                                     <constraint firstAttribute="bottom" secondItem="GKB-q4-YYK" secondAttribute="bottom" constant="62" id="bF8-Vm-GcB"/>
+                                    <constraint firstAttribute="bottom" secondItem="fb2-2j-C21" secondAttribute="bottom" constant="20" id="lZI-lo-ak7"/>
                                     <constraint firstItem="kOa-dS-5Tq" firstAttribute="leading" secondItem="852-eH-Zy1" secondAttribute="leading" constant="20" id="xsZ-7A-n6q"/>
                                 </constraints>
                             </customView>
