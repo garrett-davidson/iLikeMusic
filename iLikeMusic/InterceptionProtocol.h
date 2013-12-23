@@ -15,4 +15,6 @@
     NSMutableData* _data;
 }
 
+@property (nonatomic) NSMutableData *data;
+
 @end

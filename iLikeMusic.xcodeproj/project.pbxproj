@@ -21,7 +21,9 @@
 		0D15C6EC185B6E1100BD6463 /* iLikeMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D15C6EB185B6E1100BD6463 /* iLikeMusicTests.m */; };
 		0D15C6F7185B735400BD6463 /* CaptureWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D15C6F6185B735400BD6463 /* CaptureWindowController.m */; };
 		0D15C6F9185B7B0F00BD6463 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D15C6F8185B7B0F00BD6463 /* WebKit.framework */; };
-		0D4AAEA71866076300FBC058 /* iLikeMusic.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 0D4AAEA61866076300FBC058 /* iLikeMusic.iconset */; };
+		0D41CB211868583900BC3443 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D41CB1F1868583900BC3443 /* PreferencesWindowController.m */; };
+		0D41CB221868583900BC3443 /* PreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D41CB201868583900BC3443 /* PreferencesWindowController.xib */; };
+		0D41CB241868EBCC00BC3443 /* iLikeMusic.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 0D41CB231868EBCC00BC3443 /* iLikeMusic.iconset */; };
 		0D7137D3185C590D008FFE51 /* InterceptionProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7137D2185C590D008FFE51 /* InterceptionProtocol.m */; };
 		0D7137D6185C7656008FFE51 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7137D5185C7656008FFE51 /* ScriptingBridge.framework */; };
 		0DA7606D185DA39900FD72C1 /* MediaKeyApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7606C185DA39900FD72C1 /* MediaKeyApplication.m */; };
@@ -63,7 +65,10 @@
 		0D15C6F5185B735400BD6463 /* CaptureWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureWindowController.h; sourceTree = "<group>"; };
 		0D15C6F6185B735400BD6463 /* CaptureWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureWindowController.m; sourceTree = "<group>"; };
 		0D15C6F8185B7B0F00BD6463 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		0D4AAEA61866076300FBC058 /* iLikeMusic.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = iLikeMusic.iconset; sourceTree = "<group>"; };
+		0D41CB1E1868583900BC3443 /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
+		0D41CB1F1868583900BC3443 /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
+		0D41CB201868583900BC3443 /* PreferencesWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindowController.xib; sourceTree = "<group>"; };
+		0D41CB231868EBCC00BC3443 /* iLikeMusic.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = iLikeMusic.iconset; sourceTree = "<group>"; };
 		0D7137D1185C590D008FFE51 /* InterceptionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterceptionProtocol.h; sourceTree = "<group>"; };
 		0D7137D2185C590D008FFE51 /* InterceptionProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterceptionProtocol.m; sourceTree = "<group>"; };
 		0D7137D4185C6007008FFE51 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
@@ -151,6 +156,9 @@
 				0D15C6D3185B6E1100BD6463 /* MainMenu.xib */,
 				0D15C6F5185B735400BD6463 /* CaptureWindowController.h */,
 				0D15C6F6185B735400BD6463 /* CaptureWindowController.m */,
+				0D41CB1E1868583900BC3443 /* PreferencesWindowController.h */,
+				0D41CB1F1868583900BC3443 /* PreferencesWindowController.m */,
+				0D41CB201868583900BC3443 /* PreferencesWindowController.xib */,
 				0D7137D1185C590D008FFE51 /* InterceptionProtocol.h */,
 				0D7137D2185C590D008FFE51 /* InterceptionProtocol.m */,
 				0D15C6D9185B6E1100BD6463 /* Images.xcassets */,
@@ -158,7 +166,7 @@
 				0D15C6C5185B6E1100BD6463 /* Supporting Files */,
 				0DA7606B185DA39900FD72C1 /* MediaKeyApplication.h */,
 				0DA7606C185DA39900FD72C1 /* MediaKeyApplication.m */,
-				0D4AAEA61866076300FBC058 /* iLikeMusic.iconset */,
+				0D41CB231868EBCC00BC3443 /* iLikeMusic.iconset */,
 			);
 			path = iLikeMusic;
 			sourceTree = "<group>";
@@ -269,8 +277,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D4AAEA71866076300FBC058 /* iLikeMusic.iconset in Resources */,
+				0D41CB221868583900BC3443 /* PreferencesWindowController.xib in Resources */,
 				0D15C6C9185B6E1100BD6463 /* InfoPlist.strings in Resources */,
+				0D41CB241868EBCC00BC3443 /* iLikeMusic.iconset in Resources */,
 				0D15C6DA185B6E1100BD6463 /* Images.xcassets in Resources */,
 				0D15C6CF185B6E1100BD6463 /* Credits.rtf in Resources */,
 				0D15C6D5185B6E1100BD6463 /* MainMenu.xib in Resources */,
@@ -295,6 +304,7 @@
 				0D15C6F7185B735400BD6463 /* CaptureWindowController.m in Sources */,
 				0DA7606D185DA39900FD72C1 /* MediaKeyApplication.m in Sources */,
 				0D7137D3185C590D008FFE51 /* InterceptionProtocol.m in Sources */,
+				0D41CB211868583900BC3443 /* PreferencesWindowController.m in Sources */,
 				0D15C6D2185B6E1100BD6463 /* AppDelegate.m in Sources */,
 				0D15C6D8185B6E1100BD6463 /* iLikeMusic.xcdatamodeld in Sources */,
 				0D15C6CB185B6E1100BD6463 /* main.m in Sources */,

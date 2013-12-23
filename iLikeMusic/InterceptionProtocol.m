@@ -14,6 +14,10 @@
 + (BOOL) canInitWithRequest:(NSURLRequest*)request
 {
     id delegate = [NSURLProtocol propertyForKey:@"MyApp" inRequest:request];
+
+    //Temp
+    if (delegate) NSLog(@"Can init: %@", request);
+
     return (delegate != nil);
 }
 
@@ -26,10 +30,12 @@
     _delegate = [NSURLProtocol propertyForKey:@"MyApp" inRequest:req];
     [NSURLProtocol removePropertyForKey:@"MyApp" inRequest:req];
 
+
     // Complete my setup
     self = [super initWithRequest:req cachedResponse:cachedResponse client:client];
     if (self) {
         _data = [NSMutableData data];
+        [NSURLProtocol setProperty:self forKey:@"protocol" inRequest:(NSMutableURLRequest *)self.request];
     }
     return self;
 }
