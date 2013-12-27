@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D0778793-FB2B-4359-8967-69683829BFA3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iLikeMusic</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3AAD8676-0900-4ECE-82E7-51152D841EF0</key>
+		<string>https://github.com/garrett-davidson/iLikeMusic.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iLikeMusic.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3AAD8676-0900-4ECE-82E7-51152D841EF0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/garrett-davidson/iLikeMusic.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3AAD8676-0900-4ECE-82E7-51152D841EF0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3AAD8676-0900-4ECE-82E7-51152D841EF0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iLikeMusic</string>
+		</dict>
+	</array>
+</dict>
+</plist>

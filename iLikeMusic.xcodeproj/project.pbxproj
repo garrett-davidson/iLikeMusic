@@ -24,6 +24,17 @@
 		0D41CB221868583900BC3443 /* PreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D41CB201868583900BC3443 /* PreferencesWindowController.xib */; };
 		0D41CB241868EBCC00BC3443 /* iLikeMusic.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 0D41CB231868EBCC00BC3443 /* iLikeMusic.iconset */; };
 		0D4561A9186E37D900C6A153 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0D4561A8186E37D900C6A153 /* LICENSE.txt */; };
+		0D4561AA186E390500C6A153 /* iTunes.h in Resources */ = {isa = PBXBuildFile; fileRef = 0D7137D4185C6007008FFE51 /* iTunes.h */; };
+		0D4561AB186E390500C6A153 /* AppDelegate.h in Resources */ = {isa = PBXBuildFile; fileRef = 0D15C6D0185B6E1100BD6463 /* AppDelegate.h */; };
+		0D4561AC186E390500C6A153 /* AppDelegate.m in Resources */ = {isa = PBXBuildFile; fileRef = 0D15C6D1185B6E1100BD6463 /* AppDelegate.m */; };
+		0D4561AD186E390500C6A153 /* CaptureWindowController.h in Resources */ = {isa = PBXBuildFile; fileRef = 0D15C6F5185B735400BD6463 /* CaptureWindowController.h */; };
+		0D4561AE186E390500C6A153 /* CaptureWindowController.m in Resources */ = {isa = PBXBuildFile; fileRef = 0D15C6F6185B735400BD6463 /* CaptureWindowController.m */; };
+		0D4561AF186E390500C6A153 /* PreferencesWindowController.h in Resources */ = {isa = PBXBuildFile; fileRef = 0D41CB1E1868583900BC3443 /* PreferencesWindowController.h */; };
+		0D4561B0186E390500C6A153 /* PreferencesWindowController.m in Resources */ = {isa = PBXBuildFile; fileRef = 0D41CB1F1868583900BC3443 /* PreferencesWindowController.m */; };
+		0D4561B1186E390500C6A153 /* InterceptionProtocol.h in Resources */ = {isa = PBXBuildFile; fileRef = 0D7137D1185C590D008FFE51 /* InterceptionProtocol.h */; };
+		0D4561B2186E390500C6A153 /* InterceptionProtocol.m in Resources */ = {isa = PBXBuildFile; fileRef = 0D7137D2185C590D008FFE51 /* InterceptionProtocol.m */; };
+		0D4561B3186E390500C6A153 /* MediaKeyApplication.h in Resources */ = {isa = PBXBuildFile; fileRef = 0DA7606B185DA39900FD72C1 /* MediaKeyApplication.h */; };
+		0D4561B4186E390500C6A153 /* MediaKeyApplication.m in Resources */ = {isa = PBXBuildFile; fileRef = 0DA7606C185DA39900FD72C1 /* MediaKeyApplication.m */; };
 		0D7137D3185C590D008FFE51 /* InterceptionProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7137D2185C590D008FFE51 /* InterceptionProtocol.m */; };
 		0D7137D6185C7656008FFE51 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7137D5185C7656008FFE51 /* ScriptingBridge.framework */; };
 		0DA7606D185DA39900FD72C1 /* MediaKeyApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7606C185DA39900FD72C1 /* MediaKeyApplication.m */; };
@@ -277,6 +288,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D4561AA186E390500C6A153 /* iTunes.h in Resources */,
+				0D4561AB186E390500C6A153 /* AppDelegate.h in Resources */,
+				0D4561AC186E390500C6A153 /* AppDelegate.m in Resources */,
+				0D4561AD186E390500C6A153 /* CaptureWindowController.h in Resources */,
+				0D4561AE186E390500C6A153 /* CaptureWindowController.m in Resources */,
+				0D4561AF186E390500C6A153 /* PreferencesWindowController.h in Resources */,
+				0D4561B0186E390500C6A153 /* PreferencesWindowController.m in Resources */,
+				0D4561B1186E390500C6A153 /* InterceptionProtocol.h in Resources */,
+				0D4561B2186E390500C6A153 /* InterceptionProtocol.m in Resources */,
+				0D4561B3186E390500C6A153 /* MediaKeyApplication.h in Resources */,
+				0D4561B4186E390500C6A153 /* MediaKeyApplication.m in Resources */,
 				0D41CB221868583900BC3443 /* PreferencesWindowController.xib in Resources */,
 				0D15C6C9185B6E1100BD6463 /* InfoPlist.strings in Resources */,
 				0D41CB241868EBCC00BC3443 /* iLikeMusic.iconset in Resources */,
