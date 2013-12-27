@@ -13,7 +13,6 @@
 		0D15C6CF185B6E1100BD6463 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0D15C6CD185B6E1100BD6463 /* Credits.rtf */; };
 		0D15C6D2185B6E1100BD6463 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D15C6D1185B6E1100BD6463 /* AppDelegate.m */; };
 		0D15C6D5185B6E1100BD6463 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D15C6D3185B6E1100BD6463 /* MainMenu.xib */; };
-		0D15C6D8185B6E1100BD6463 /* iLikeMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D15C6D6185B6E1100BD6463 /* iLikeMusic.xcdatamodeld */; };
 		0D15C6DA185B6E1100BD6463 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D15C6D9185B6E1100BD6463 /* Images.xcassets */; };
 		0D15C6E1185B6E1100BD6463 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D15C6E0185B6E1100BD6463 /* XCTest.framework */; };
 		0D15C6E2185B6E1100BD6463 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D15C6BE185B6E1100BD6463 /* Cocoa.framework */; };
@@ -24,6 +23,7 @@
 		0D41CB211868583900BC3443 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D41CB1F1868583900BC3443 /* PreferencesWindowController.m */; };
 		0D41CB221868583900BC3443 /* PreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D41CB201868583900BC3443 /* PreferencesWindowController.xib */; };
 		0D41CB241868EBCC00BC3443 /* iLikeMusic.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 0D41CB231868EBCC00BC3443 /* iLikeMusic.iconset */; };
+		0D4561A9186E37D900C6A153 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0D4561A8186E37D900C6A153 /* LICENSE.txt */; };
 		0D7137D3185C590D008FFE51 /* InterceptionProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7137D2185C590D008FFE51 /* InterceptionProtocol.m */; };
 		0D7137D6185C7656008FFE51 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D7137D5185C7656008FFE51 /* ScriptingBridge.framework */; };
 		0DA7606D185DA39900FD72C1 /* MediaKeyApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA7606C185DA39900FD72C1 /* MediaKeyApplication.m */; };
@@ -55,7 +55,6 @@
 		0D15C6D0185B6E1100BD6463 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0D15C6D1185B6E1100BD6463 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0D15C6D4185B6E1100BD6463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		0D15C6D7185B6E1100BD6463 /* iLikeMusic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iLikeMusic.xcdatamodel; sourceTree = "<group>"; };
 		0D15C6D9185B6E1100BD6463 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0D15C6DF185B6E1100BD6463 /* iLikeMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iLikeMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D15C6E0185B6E1100BD6463 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -69,6 +68,7 @@
 		0D41CB1F1868583900BC3443 /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
 		0D41CB201868583900BC3443 /* PreferencesWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindowController.xib; sourceTree = "<group>"; };
 		0D41CB231868EBCC00BC3443 /* iLikeMusic.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = iLikeMusic.iconset; sourceTree = "<group>"; };
+		0D4561A8186E37D900C6A153 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		0D7137D1185C590D008FFE51 /* InterceptionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterceptionProtocol.h; sourceTree = "<group>"; };
 		0D7137D2185C590D008FFE51 /* InterceptionProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterceptionProtocol.m; sourceTree = "<group>"; };
 		0D7137D4185C6007008FFE51 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
@@ -107,6 +107,7 @@
 		0D15C6B2185B6E1100BD6463 = {
 			isa = PBXGroup;
 			children = (
+				0D4561A8186E37D900C6A153 /* LICENSE.txt */,
 				0D15C6C4185B6E1100BD6463 /* iLikeMusic */,
 				0D15C6E5185B6E1100BD6463 /* iLikeMusicTests */,
 				0D15C6BD185B6E1100BD6463 /* Frameworks */,
@@ -162,7 +163,6 @@
 				0D7137D1185C590D008FFE51 /* InterceptionProtocol.h */,
 				0D7137D2185C590D008FFE51 /* InterceptionProtocol.m */,
 				0D15C6D9185B6E1100BD6463 /* Images.xcassets */,
-				0D15C6D6185B6E1100BD6463 /* iLikeMusic.xcdatamodeld */,
 				0D15C6C5185B6E1100BD6463 /* Supporting Files */,
 				0DA7606B185DA39900FD72C1 /* MediaKeyApplication.h */,
 				0DA7606C185DA39900FD72C1 /* MediaKeyApplication.m */,
@@ -283,6 +283,7 @@
 				0D15C6DA185B6E1100BD6463 /* Images.xcassets in Resources */,
 				0D15C6CF185B6E1100BD6463 /* Credits.rtf in Resources */,
 				0D15C6D5185B6E1100BD6463 /* MainMenu.xib in Resources */,
+				0D4561A9186E37D900C6A153 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +307,6 @@
 				0D7137D3185C590D008FFE51 /* InterceptionProtocol.m in Sources */,
 				0D41CB211868583900BC3443 /* PreferencesWindowController.m in Sources */,
 				0D15C6D2185B6E1100BD6463 /* AppDelegate.m in Sources */,
-				0D15C6D8185B6E1100BD6463 /* iLikeMusic.xcdatamodeld in Sources */,
 				0D15C6CB185B6E1100BD6463 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,19 +530,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		0D15C6D6185B6E1100BD6463 /* iLikeMusic.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				0D15C6D7185B6E1100BD6463 /* iLikeMusic.xcdatamodel */,
-			);
-			currentVersion = 0D15C6D7185B6E1100BD6463 /* iLikeMusic.xcdatamodel */;
-			path = iLikeMusic.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 0D15C6B3185B6E1100BD6463 /* Project object */;
 }
