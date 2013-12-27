@@ -94,9 +94,9 @@ static CaptureWindowController *sharedSingleton = nil;
             break;
 
         case grooveshark:
-            req = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://grooveshark.com/"]];
+            req = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://grooveshark.com"]];
             break;
-
+ 
         case rdio:
             //rdio loads strangley if you don't change the user agent
             //i.e. the songs the are harder to intercept
@@ -275,14 +275,13 @@ static CaptureWindowController *sharedSingleton = nil;
     //album is last because it terminates the array if it is nil
     NSArray *songArray = [NSArray arrayWithObjects:!duplicate ? @"Added" : overwrote ? @"Overwrote" : artwork ? @"Added artwork": @"Duplicate", name, artist, imageData, extension, album, nil];
 
+    [self.tableView removeRowsAtIndexes:[[NSIndexSet alloc] initWithIndex:0] withAnimation:NSTableViewAnimationSlideRight];
     //Replace the last ("loading") object in the array
     if (previousSongs.count < 1) previousSongs = [previousSongs subarrayWithRange:NSMakeRange(0, previousSongs.count-1)];
     else previousSongs = [NSArray array];
     previousSongs = [previousSongs arrayByAddingObject:songArray];
 
     //Update table
-    [self.tableView removeRowsAtIndexes:[[NSIndexSet alloc] initWithIndex:0] withAnimation:NSTableViewAnimationSlideRight];
-    [NSThread sleepForTimeInterval:0.1];
     [self.tableView insertRowsAtIndexes:[[NSIndexSet alloc] initWithIndex:0] withAnimation:NSTableViewAnimationSlideDown];
 
     //Show notification
@@ -518,18 +517,24 @@ static CaptureWindowController *sharedSingleton = nil;
         });
 
 
-
+/*
         if (site == rdio)
         {
             currentSongRequest = newRequest;
         }
         else currentSongRequest = nil;
-        
+        */
         return newRequest;
     }
 
 
     return request;
+}
+
+
+- (IBAction)clearCache:(id)sender
+{
+    
 }
 
 

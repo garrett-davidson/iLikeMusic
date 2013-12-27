@@ -17,6 +17,8 @@
 
     //Temp
     if (delegate) NSLog(@"Can init: %@", request);
+    const NSPredicate *rdioPredicate = [NSPredicate predicateWithFormat:@"SELF like \"m.cdn?.rd*io*\""];
+    if([rdioPredicate evaluateWithObject:request.URL.host]) NSLog(@"Intercept");
 
     return (delegate != nil);
 }
