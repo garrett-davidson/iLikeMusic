@@ -52,11 +52,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iLikeMusic/CaptureWindowController.m"
-            timestampString = "409593882.722798"
+            timestampString = "409875056.047873"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "587"
-            endingLineNumber = "587"
+            startingLineNumber = "593"
+            endingLineNumber = "593"
             landmarkName = "-tableView:heightOfRow:"
             landmarkType = "5">
          </BreakpointContent>
